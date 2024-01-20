@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contactstyle.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: rgb(103, 230, 156);
+      color: #333;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    h3 {
+      text-align: center;
+      color: #004d26;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: #333;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    input[type="submit"] {
+      background-color: #004d26;;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #63e99b;
+    }
+
+    hr {
+      border: 0;
+      border-top: 1px solid #ccc;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  </style>
+  <title>Contact Me</title>
+</head>
+<body>
+  <h3>Contact Me</h3>
+
+  <form action="mailto:tarunpathi@gmail.com" method="post" enctype="text/plain">
+    <label for="name">Enter Your Name</label>
+    <input type="text" id="name" name="Your Name" required>
+
+    <label for="email">Enter Your Email</label>
+    <input type="email" id="email" name="Your email" required>
+
+    <label for="message">Enter Your Message</label>
+    <textarea id="message" name="your text" rows="5" cols="30" required></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

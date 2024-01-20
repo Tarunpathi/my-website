@@ -1,0 +1,140 @@
+body{
+    width: 100%;
+    background-color:rgb(103, 230, 156);
+        text-align: center;
+    }
+    
+.cloud1{
+    position: relative;
+    height: 80px;
+    width: 120px;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+.cloud2{
+    height: 80px;
+    width: 120px;
+    margin-left: 1500px;
+    margin-top: -30px;
+    margin-bottom: auto;
+}
+.mount{
+    margin-top: -10px;
+    margin-left: 40px;
+    margin-bottom: 0%;
+}
+.bird1{
+    height: 80px;
+    width: 120px;
+    margin-left: 250px;
+    margin-top: -350px;
+}
+h1{
+ margin-top: 10%;
+ margin-bottom: 0;
+ color:#0F1035;
+ font-size: 700%;
+ font-style: italic;
+ font-family:'sacramento',cursive ;
+
+}
+.bird2{
+    height: 80px;
+    width: 120px;
+    margin-left: 1350px;
+    margin-top: -60px;
+    margin-bottom: auto;
+}
+.h2{
+  text-align: center;
+  margin-top: -2%;
+color: #04333f;
+font-family:'montserrat',cursive ;
+font-size: 200%;
+
+}
+.profile{
+    margin-top: 350px;
+    margin-left: 830px;
+text-align: justify;
+    
+}
+.cloud1,.cloud2{
+    position: absolute;
+    top: 50px; /* Adjust the top value as needed */
+    animation: floatClouds linear infinite 5s;
+}
+@keyframes floatClouds {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(20px); }
+    100% { transform: translateX(0);}
+}
+.bottom-container {
+    background-color: #015320;
+    transition-property: inherit;
+    color:  #94ffbd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.footer-link {
+    color: #69eb9f;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.footer-link:hover {
+    text-decoration: underline;
+}
+a {
+    color: #02550d;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.contact-me {
+    background-color: #94ffbd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.skills, .contact-me {
+    text-align: center;
+}
+.skills img, .web img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.middle-container{
+    position: absolute;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 600px;
+
+}
+.skills{
+    margin-top: 50px;
+    font-size: 150%;
+}
+.skill1{
+margin-left: 650px;
+}
+.skill2{
+    margin-left: 650px;
+    }
+    hr {
+        background-color: rgb(103, 230, 156);
+        border-style: none;
+        border-bottom-style: dotted;
+        border-color: #0a5a1e;
+        width: 20%;
+        border-width: 3px;
+    }  
+    .skilltxt{
+        font-size: 20px;
+    }
+    .skilltxt1{
+        font-size: 20px;
+        justify-content: space-between;
+    }
